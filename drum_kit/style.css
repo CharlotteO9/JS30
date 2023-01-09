@@ -1,0 +1,25 @@
+body {
+  background-image: url('background.jpeg');
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.list {
+  border: solid 2px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  background: black;
+  opacity: 0.8;
+}
+.list h3 {
+  color: white;
+}
+.list p {
+  color: yellow;
+}
