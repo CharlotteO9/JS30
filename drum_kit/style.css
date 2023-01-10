@@ -5,8 +5,9 @@ body {
 
 .container {
   display: flex;
+  height: 100vh;
   justify-content: space-around;
-
+  align-items: center;
 }
 
 .list {
@@ -19,7 +20,15 @@ body {
 }
 .list h3 {
   color: white;
+  font-size: larger;
+  font-weight: bolder;
 }
 .list p {
   color: yellow;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: yellow;
+  box-shadow: 0 0 1rem #ffc600;
 }
